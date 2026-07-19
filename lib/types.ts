@@ -36,10 +36,13 @@ export type Post = {
   catchphrase: string;
   catchphrase_enabled: boolean;
   catchphrase_style: 'normal' | 'italic';
+  catchphrases: any[];
+  hashtags: any[];
   heart_color: string;
   image_url: string;
   banner_image_url: string;
   extra_images: string[];
+  banner_images: string[];
   pinned: boolean;
   sort_order: number;
   created_at: string;
