@@ -89,7 +89,10 @@ alter table profiles add column if not exists bg_image_pos_y integer default 50;
 alter table profiles add column if not exists category_colors jsonb default '{}'::jsonb; -- { "카테고리이름": "purple" }
 
 alter table posts add column if not exists extra_images text[] default '{}';   -- 연관 이미지 여러 장
+alter table posts add column if not exists banner_images text[] default '{}'; -- 배너 이미지 여러 장 (개수 제한 없음)
 alter table posts add column if not exists heart_color text default '';       -- 게시물별 하트/디데이 색상 (빈 값이면 프로필 기본값)
+alter table posts add column if not exists catchphrases jsonb default '[]'::jsonb; -- [{text, enabled}] 여러 개, 각각 온오프
+alter table posts add column if not exists hashtags jsonb default '[]'::jsonb;      -- [{text, enabled}] 여러 개, 각각 온오프 (캐치프레이즈보다 진한 색으로 표시)
 alter table posts add column if not exists catchphrase_style text default 'normal'; -- 'normal' | 'italic'
 
 -- ============ storage: 이미지 저장용 버킷 ============
