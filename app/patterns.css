@@ -1,0 +1,88 @@
+/* 배경 패턴 (원본 index.html에서 그대로 가져옴) */
+.bg-pattern-dots{ background-color:#faf9f6; background-image:radial-gradient(rgba(55,53,47,0.14) 1px, transparent 1px); background-size:16px 16px; }
+.bg-pattern-grid{ background-color:#ffffff; background-image:linear-gradient(rgba(55,53,47,0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(55,53,47,0.08) 1px, transparent 1px); background-size:24px 24px; }
+.bg-pattern-diagonal{ background-color:#ffffff; background-image:repeating-linear-gradient(45deg, rgba(55,53,47,0.07) 0 2px, transparent 2px 14px); }
+.bg-pattern-blob{ background-color:#faf9f7; background-image:radial-gradient(circle at 18% 20%, rgba(211,229,239,0.65) 0%, transparent 45%), radial-gradient(circle at 82% 28%, rgba(232,222,238,0.6) 0%, transparent 45%), radial-gradient(circle at 50% 88%, rgba(219,237,219,0.6) 0%, transparent 45%); }
+.bg-pattern-sky{
+  background-color:#e6f2fb;
+  background-image:
+    linear-gradient(135deg, #bfe0f7 0%, #eaf6fd 50%, #ffffff 100%),
+    radial-gradient(circle at 12% 12%, rgba(255,255,255,0.7), transparent 40%),
+    radial-gradient(circle at 88% 22%, rgba(255,255,255,0.55), transparent 45%),
+    radial-gradient(circle at 30% 92%, rgba(255,255,255,0.45), transparent 50%);
+}
+.bg-pattern-feather{
+  background-color:#eef0fb;
+  background-image:
+    linear-gradient(205deg, rgba(206,218,247,0.95) 0%, rgba(240,240,253,0.95) 55%, rgba(255,255,255,0.95) 100%),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='70' height='100' viewBox='0 0 70 100'><path d='M35 6 C18 20 12 42 20 66 C26 80 35 92 35 92 C35 92 44 80 50 66 C58 42 52 20 35 6 Z' fill='rgba(255,255,255,0.5)' stroke='rgba(100,120,190,0.6)' stroke-width='1.5'/><path d='M35 10 L35 86' stroke='rgba(100,120,190,0.5)' stroke-width='1.1'/><path d='M35 18 L23 28 M35 27 L20 38 M35 36 L18 48 M35 45 L18 58 M35 54 L20 68 M35 63 L23 76 M35 18 L47 28 M35 27 L50 38 M35 36 L52 48 M35 45 L52 58 M35 54 L50 68 M35 63 L47 76' stroke='rgba(100,120,190,0.42)' stroke-width='0.9'/></svg>");
+  background-size:auto, 78px 108px;
+  background-position:center, 0 0;
+  background-repeat:repeat, repeat;
+}
+.bg-pattern-wing{
+  background-color:#e9f5f6;
+  background-image:
+    linear-gradient(60deg, #cdeaea 0%, #eef9f8 55%, #ffffff 100%),
+    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='150' viewBox='0 0 220 150'><path d='M14 130 C48 96 82 55 138 34 C165 24 192 20 205 20 C192 29 168 40 150 56 C178 51 198 51 211 56 C189 61 163 73 146 86 C168 82 185 85 195 93 C171 93 145 103 128 119 C98 133 58 139 14 130 Z' fill='none' stroke='rgba(70,150,150,0.45)' stroke-width='1.8'/><path d='M14 130 C48 96 82 55 138 34' stroke='rgba(70,150,150,0.3)' stroke-width='1'/></svg>");
+  background-size:auto, 300px 200px;
+  background-position:center, 20px 0;
+  background-repeat:repeat, repeat;
+}
+.bg-pattern-checker{
+  background-color:#fffdf9;
+  background-image:
+    linear-gradient(45deg, rgba(55,53,47,0.09) 25%, transparent 25%),
+    linear-gradient(-45deg, rgba(55,53,47,0.09) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, rgba(55,53,47,0.09) 75%),
+    linear-gradient(-45deg, transparent 75%, rgba(55,53,47,0.09) 75%);
+  background-size:30px 30px;
+  background-position:0 0, 0 15px, 15px -15px, -15px 0px;
+}
+.bg-pattern-gingham{
+  background-color:#fdf1ee;
+  background-image:
+    repeating-linear-gradient(0deg, rgba(233,120,140,0.4) 0 11px, transparent 11px 22px),
+    repeating-linear-gradient(90deg, rgba(233,120,140,0.4) 0 11px, transparent 11px 22px);
+  background-blend-mode:multiply;
+}
+.bg-pattern-leopard{
+  background-color:#f5ead9;
+  background-image:
+    radial-gradient(ellipse 11px 8px at 22px 18px, rgba(120,72,38,0.55) 42%, transparent 44%),
+    radial-gradient(ellipse 9px 7px at 62px 46px, rgba(120,72,38,0.5) 42%, transparent 44%),
+    radial-gradient(ellipse 10px 7px at 12px 62px, rgba(120,72,38,0.5) 42%, transparent 44%),
+    radial-gradient(ellipse 8px 6px at 74px 12px, rgba(120,72,38,0.45) 42%, transparent 44%),
+    radial-gradient(ellipse 9px 6px at 45px 70px, rgba(120,72,38,0.48) 42%, transparent 44%);
+  background-size:90px 90px;
+}
+.bg-pattern-zigzag{
+  background-color:#fdfaf6;
+  background-image:
+    linear-gradient(135deg, rgba(55,53,47,0.09) 25%, transparent 25%),
+    linear-gradient(225deg, rgba(55,53,47,0.09) 25%, transparent 25%),
+    linear-gradient(45deg, rgba(55,53,47,0.09) 25%, transparent 25%),
+    linear-gradient(315deg, rgba(55,53,47,0.09) 25%, transparent 25%);
+  background-position:20px 0, 20px 0, 0 0, 0 0;
+  background-size:40px 40px;
+}
+.bg-pattern-confetti{
+  background-color:#fffdf9;
+  background-image:
+    radial-gradient(circle at 15% 20%, rgba(255,99,132,0.55) 3px, transparent 4px),
+    radial-gradient(circle at 65% 10%, rgba(94,197,255,0.55) 3px, transparent 4px),
+    radial-gradient(circle at 40% 55%, rgba(255,205,86,0.6) 3px, transparent 4px),
+    radial-gradient(circle at 85% 65%, rgba(153,224,153,0.55) 3px, transparent 4px),
+    radial-gradient(circle at 25% 85%, rgba(201,148,255,0.55) 3px, transparent 4px),
+    radial-gradient(circle at 75% 90%, rgba(255,150,190,0.55) 3px, transparent 4px);
+  background-size:120px 120px;
+}
+.bg-pattern-mesh{
+  background-color:#f4f1ea;
+  background-image:
+    radial-gradient(at 20% 20%, rgba(255,183,197,0.55) 0px, transparent 50%),
+    radial-gradient(at 80% 15%, rgba(163,210,255,0.5) 0px, transparent 50%),
+    radial-gradient(at 15% 80%, rgba(255,224,153,0.5) 0px, transparent 50%),
+    radial-gradient(at 85% 85%, rgba(190,230,190,0.5) 0px, transparent 50%),
+    radial-gradient(at 50% 50%, rgba(220,190,255,0.4) 0px, transparent 60%);
+}
